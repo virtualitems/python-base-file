@@ -7,7 +7,7 @@ docstring
 # standard
 from __future__ import annotations
 from typing import TYPE_CHECKING
-from logging import getLogger
+import logging
 
 # framework
 
@@ -18,6 +18,3 @@ from logging import getLogger
 # typing
 if TYPE_CHECKING:  # pragma: no cover
     pass
-
-# logging
-logger = getLogger(__name__)
